@@ -7,21 +7,59 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <Link to="home">
-              <a href="/">Home</a>
+            <Link
+              className="link"
+              spy={true}
+              duration={200}
+              smooth={true}
+              to="home"
+            >
+              Home
             </Link>
           </li>
           <li>
-            <a href="">Services </a>
+            <Link
+              className="link"
+              spy={true}
+              duration={200}
+              smooth={true}
+              to="services"
+            >
+              Services
+            </Link>
           </li>
           <li>
-            <a href="">Works </a>
+            <Link
+              to="works"
+              className="link"
+              spy={true}
+              duration={200}
+              smooth={true}
+            >
+              Works
+            </Link>
           </li>
           <li>
-            <a href="">About </a>
+            <Link
+              to="about"
+              className="link"
+              spy={true}
+              duration={200}
+              smooth={true}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="">Services </a>
+            <Link
+              to="contact"
+              className="link"
+              spy={true}
+              duration={200}
+              smooth={true}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

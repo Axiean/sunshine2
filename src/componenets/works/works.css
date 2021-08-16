@@ -1,0 +1,84 @@
+#works {
+  width: 100%;
+  height: fit-content;
+  padding-top: 14.815vw;
+}
+#works #brands-box {
+  width: 70%;
+  margin: auto;
+}
+#works #brands-box #box-title {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: roboto;
+  color: rgb(47, 47, 47);
+}
+#works #brands-box #brands-iterior-box {
+  margin: auto;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#works #brands-box #brands-iterior-box .brand-img {
+  border-radius: 20px;
+  width: 23%;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+#works #brands-box #brands-iterior-box .brand-img:hover {
+  transform: scale(1.03);
+  -webkit-box-shadow: 2px 3px 19px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 2px 3px 19px 5px rgba(0, 0, 0, 0.54);
+}
+#box-line {
+  width: 100%;
+  margin-top: 25px;
+}
+#works #works-static {
+  width: 70%;
+  display: flex;
+  padding: 0 60px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+#works #works-static .static-card {
+  display: flex;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+}
+#works #works-static .static-card h2 {
+  font-size: 10rem;
+  font-weight: 400;
+  color: #2d383d;
+}
+#works #works-static .static-card h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #5d737e;
+}
+#btn-work {
+  color: #2d383d;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.42rem;
+  width: 198px;
+  height: 68.25px;
+  background: transparent;
+  border: 8.53125px solid #64b6ac;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  margin-right: 1.704vw;
+  margin-top: 90px;
+  float: right;
+  transition: all ease-in-out 0.2s;
+}
+#btn-work:hover {
+  cursor: pointer;
+  background-color: #64b6ac;
+  color: aliceblue;
+}

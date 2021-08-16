@@ -1,0 +1,34 @@
+label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.75px;
+  text-transform: capitalize;
+  color: #2d383d;
+  margin-bottom: 0px;
+}
+input,
+select {
+  /* font-size: 32px; */
+  height: 68px;
+  color: aqua;
+}
+.btnSubmit {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.75px;
+  background-color: #64b6ac;
+  border-radius: 41.7px;
+  padding: 20.8px 35px;
+  border: none;
+  color: white;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  width: 200px;
+  margin: auto;
+  margin-top: 60px;
+}
+.btnSubmit:hover {
+  color: black;
+  background-color: #64b6f0;
+}

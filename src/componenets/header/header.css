@@ -1,0 +1,70 @@
+header {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+}
+header #logo {
+  position: relative;
+  left: 20vw;
+  top: 22.593vw;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+header #logo img {
+  width: 20.519vw;
+}
+header #logo h1 {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.8vw;
+  color: #544a4a;
+  margin-left: 8.296vw;
+}
+header #btns {
+  float: right;
+  position: relative;
+  margin-top: 29.63vw;
+  right: 2.074vw;
+}
+header #btns #btn-h-1 {
+  color: #f5f4f4;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.42rem;
+  width: 198px;
+  height: 68.25px;
+  background: #64b6ac;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+header #btns #btn-h-1:hover {
+  color: black;
+  background-color: #64b6f0;
+}
+
+header #btns #btn-h-2 {
+  color: #2d383d;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.42rem;
+  width: 198px;
+  height: 68.25px;
+  background: transparent;
+  border: 8.53125px solid #64b6ac;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  margin-right: 1.704vw;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+header #btns #btn-h-2:hover {
+  color: white;
+  background-color: #64b6ac;
+}
