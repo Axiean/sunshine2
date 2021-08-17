@@ -26,7 +26,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.125rem;
+  font-size: 2.519vw;
   align-items: center;
   text-transform: capitalize;
   text-align: center;
@@ -36,7 +36,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.889vw;
   line-height: 30px;
   display: flex;
   align-items: center;
@@ -50,14 +50,14 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.42rem;
-  width: 198px;
-  height: 68.25px;
+  font-size: 1.685vw;
+  width: 14.667vw;
+  height: 5.056vw;
+  border: 0.63vw solid #64b6ac;
+  margin-right: 1.704vw;
   background: transparent;
-  border: 8.53125px solid #64b6ac;
   box-sizing: border-box;
   border-radius: 2.5rem;
-  margin-right: 1.704vw;
   margin-top: 90px;
   float: right;
   transition: all ease-in-out 0.2s;
@@ -66,4 +66,40 @@
   cursor: pointer;
   background-color: #64b6ac;
   color: aliceblue;
+}
+@media screen and (max-width: 576px) {
+  #services #srv-container {
+    width: 79.778vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: auto;
+    margin: auto;
+  }
+  #services #srv-container #data-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #services #srv-container img {
+    width: 28.704vw;
+  }
+  #services #srv-container h3 {
+    font-size: 4vw;
+    margin-top: 3vw;
+  }
+  #services #srv-container p {
+    font-size: 3vw;
+    margin-top: 1vw;
+  }
+  #btn-srv {
+    width: 25vw;
+    height: 10vw;
+    font-size: 3vw;
+    margin-top: 20px;
+    margin-right: 4.704vw;
+  }
 }

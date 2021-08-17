@@ -35,7 +35,16 @@ function Footer() {
           <h3>Unit 3, Floor 1, No 559, New york, USA</h3>
         </div>
       </div>
-      <img src={Bg1} style={{ position: "absolute", left: "0", bottom: "0" }} />
+      <img
+        id="bg1"
+        src={Bg1}
+        style={{
+          zIndex: "-99",
+          position: "absolute",
+          left: "0",
+          bottom: "0",
+        }}
+      />
     </footer>
   );
 }

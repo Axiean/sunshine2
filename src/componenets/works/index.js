@@ -25,11 +25,11 @@ function Works() {
         </div>
         <div className="static-card">
           <h2>1</h2>
-          <h3>Customers</h3>
+          <h3>Blog</h3>
         </div>
         <div className="static-card">
           <h2>3</h2>
-          <h3>Customers</h3>
+          <h3>Services</h3>
         </div>
       </div>
       <button id="btn-work">See More</button>

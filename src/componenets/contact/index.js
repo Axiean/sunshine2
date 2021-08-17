@@ -13,8 +13,11 @@ function Contact() {
           <img src={Laugh} alt="" />
         </div>
         <div id="attention">
-          <p>
+          <p id="wide-p">
             Write your information <br /> here and <br /> <b>send</b> us !
+          </p>
+          <p id="mobile-p">
+            Write your information here and <b>send</b> us !
           </p>
           <img src={Flash} alt="flash" />
         </div>

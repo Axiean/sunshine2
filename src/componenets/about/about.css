@@ -62,14 +62,14 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.42rem;
-  width: 198px;
-  height: 68.25px;
   background: transparent;
-  border: 8.53125px solid #64b6ac;
+  font-size: 1.685vw;
+  width: 14.667vw;
+  height: 5.056vw;
+  border: 0.63vw solid #64b6ac;
+  margin-right: 1.704vw;
   box-sizing: border-box;
   border-radius: 2.5rem;
-  margin-right: 1.704vw;
   margin-top: 90px;
   float: right;
   transition: all ease-in-out 0.2s;
@@ -78,4 +78,26 @@
   cursor: pointer;
   background-color: #64b6ac;
   color: aliceblue;
+}
+@media screen and (max-width: 576px) {
+  #about #pro-box #pro-card img {
+    width: 20vw;
+  }
+  #about #pro-box #pro-card h2 {
+    font-size: 6vw;
+  }
+  #about #pro-box #pro-card h5 {
+    font-size: 4vw;
+  }
+  #about #pro-box #pro-card p {
+    font-size: 2vw;
+    margin-top: 0;
+  }
+  #btn-about {
+    width: 25vw;
+    height: 10vw;
+    font-size: 3vw;
+    margin-top: 20px;
+    margin-right: 4.704vw;
+  }
 }

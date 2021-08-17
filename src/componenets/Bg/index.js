@@ -6,16 +6,8 @@ import "./bg.css";
 function Bg() {
   return (
     <div id="bg">
-      <img
-        className="back-img"
-        style={{ position: "absolute", left: "0", top: "0" }}
-        src={Bg2}
-      />
-      <img
-        className="back-img"
-        style={{ position: "absolute", top: "1225px", right: "0" }}
-        src={Bg3}
-      />
+      <img id="bg2" className="back-img" src={Bg2} />
+      <img id="bg3" className="back-img" src={Bg3} />
       {/* <img
         className="back-img"
         style={{

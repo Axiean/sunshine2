@@ -1,3 +1,21 @@
 .back-img {
   z-index: -10;
 }
+#bg2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#bg3 {
+  position: absolute;
+  top: 1225px;
+  right: 0;
+}
+@media screen and (max-width: 576px) {
+  #bg3 {
+    width: 100%;
+  }
+  #bg2 {
+    width: 100%;
+  }
+}

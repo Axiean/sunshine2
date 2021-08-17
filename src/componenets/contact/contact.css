@@ -35,12 +35,15 @@
   position: relative;
   margin-left: 10.444vw;
 }
-#contact #attention p {
+#contact #attention #wide-p {
   font-style: normal;
   font-weight: 300;
   font-size: 2.8rem;
   line-height: 53px;
   color: #2d383d;
+}
+#contact #attention #mobile-p {
+  display: none;
 }
 #contact #attention img {
   position: absolute;
@@ -58,4 +61,27 @@
 }
 #p1 {
   display: inline-block;
+}
+@media screen and (max-width: 576px) {
+  #contact #attention img {
+    display: none;
+  }
+  #contact #attention #wide-p {
+    display: none;
+  }
+  #contact #attention #mobile-p {
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 53px;
+    color: #2d383d;
+    text-align: left;
+  }
+  #form {
+    width: 87%;
+    margin-right: auto;
+    margin: auto;
+    float: none;
+  }
 }

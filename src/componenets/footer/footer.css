@@ -37,3 +37,21 @@ footer .footer-col .footer-row h3 {
   line-height: 27px;
   color: #2d383d;
 }
+@media screen and (max-width: 576px) {
+  footer {
+    flex-direction: column;
+  }
+  footer .footer-col {
+    margin-bottom: 30px;
+  }
+  footer .footer-col h2 {
+    font-size: 5vw;
+  }
+  footer .footer-col .footer-row h3 {
+    font-size: 3vw;
+  }
+
+  #bg1 {
+    width: 100%;
+  }
+}
