@@ -10,7 +10,10 @@ input,
 select {
   /* font-size: 32px; */
   height: 68px;
-  color: aqua;
+  background-color: #e3fbf0 !important ;
+}
+textarea {
+  background-color: #e3fbf0 !important ;
 }
 .btnSubmit {
   font-family: Roboto;
@@ -31,4 +34,13 @@ select {
 .btnSubmit:hover {
   color: black;
   background-color: #64b6f0;
+}
+@media screen and (max-width: 576px) {
+  label {
+    font-size: 5vw;
+  }
+  input,
+  select {
+    height: 45px;
+  }
 }

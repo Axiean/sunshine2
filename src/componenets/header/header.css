@@ -4,6 +4,9 @@ header {
   /* height: 100vh; */
   transition: all ease-in-out 0.2s;
 }
+#hamburger {
+  display: none;
+}
 header #header-about {
   font-size: 1.7vw;
   width: 56vw;
@@ -77,10 +80,6 @@ header #btns #btn-h-2:hover {
   background-color: #64b6ac;
 }
 #menu {
-  position: absolute;
-  right: 4vw;
-  top: 4vw;
-  width: 7vw;
   display: none;
 }
 #menu:hover {
@@ -95,6 +94,63 @@ header #btns #btn-h-2:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #hamburger-contaier {
+    opacity: 0.95;
+    z-index: 99;
+    width: 100%;
+    background-color: #c1dfdb;
+    height: 70px;
+    position: fixed;
+  }
+  #hamburger {
+    display: block;
+    background-color: #c1dfdb;
+    height: 70vh;
+    width: 100%;
+    position: fixed;
+    transition: all ease-in-out 0.3s;
+    z-index: 99;
+    opacity: 0.95;
+    border-radius: 10px;
+  }
+  #hamburger #close-btn {
+    opacity: 0.7;
+    width: 7%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  #hamburger #close-btn:hover {
+    cursor: pointer;
+  }
+  #hamburger #ul-mobile {
+    text-align: center;
+    list-style: none;
+    padding-top: 60px;
+  }
+  #hamburger #ul-mobile .li-mobile {
+    margin-bottom: 6vw;
+    font-size: 10px;
+  }
+  .LinkS {
+    font-size: 4vh;
+    font-weight: 300;
+    border: none;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    outline: none;
+    justify-self: flex-start;
+    color: #5d737e;
+    text-decoration: none;
+  }
+  .LinkS.active {
+    font-weight: 900;
+  }
+  .LinkS:hover {
+    cursor: pointer;
+    color: #2d383d;
   }
   header #header-about {
     font-size: 2.7vw;
@@ -150,5 +206,26 @@ header #btns #btn-h-2:hover {
   }
   #menu {
     display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 4vw;
+    width: 7vw;
+  }
+  #hamburger-logo {
+    position: absolute;
+    bottom: 0;
+    left: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+  }
+  #hamburger-logo img {
+    width: 10vw;
+  }
+  #hamburger-logo h1 {
+    font-size: 2vw;
+    /* margin-left: 4vw; */
   }
 }

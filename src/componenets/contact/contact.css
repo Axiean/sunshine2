@@ -70,10 +70,11 @@
     display: none;
   }
   #contact #attention #mobile-p {
-    display: block;
+    display: inline-block;
     font-style: normal;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 9vw;
+    align-items: center;
     line-height: 53px;
     color: #2d383d;
     text-align: left;
@@ -83,5 +84,6 @@
     margin-right: auto;
     margin: auto;
     float: none;
+    padding: 5vw 5vw;
   }
 }

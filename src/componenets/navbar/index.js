@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <>
       <nav>
-        <ul>
-          <li>
+        <ul id="ul-desktop">
+          <li className="li-desktop">
             <Link
               className="link"
               spy={true}
@@ -17,7 +17,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
+          <li className="li-desktop">
             <Link
               className="link"
               spy={true}
@@ -28,7 +28,7 @@ function Navbar() {
               Services
             </Link>
           </li>
-          <li>
+          <li className="li-desktop">
             <Link
               to="works"
               className="link"
@@ -39,7 +39,7 @@ function Navbar() {
               Works
             </Link>
           </li>
-          <li>
+          <li className="li-desktop">
             <Link
               to="about"
               className="link"
@@ -50,7 +50,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          <li className="li-desktop">
             <Link
               to="contact"
               className="link"
