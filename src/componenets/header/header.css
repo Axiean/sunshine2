@@ -106,7 +106,7 @@ header #btns #btn-h-2:hover {
   #hamburger {
     display: block;
     background-color: #c1dfdb;
-    height: 70vh;
+    height: 400px;
     width: 100%;
     position: fixed;
     transition: all ease-in-out 0.3s;
@@ -131,7 +131,7 @@ header #btns #btn-h-2:hover {
   }
   #hamburger #ul-mobile .li-mobile {
     margin-bottom: 6vw;
-    font-size: 10px;
+    /* font-size: 10px; */
   }
   .LinkS {
     font-size: 4vh;
