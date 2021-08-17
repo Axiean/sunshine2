@@ -106,7 +106,8 @@ header #btns #btn-h-2:hover {
   #hamburger {
     display: block;
     background-color: #c1dfdb;
-    height: 400px;
+    /* height: 400px; */
+    padding-bottom: 100px;
     width: 100%;
     position: fixed;
     transition: all ease-in-out 0.3s;
