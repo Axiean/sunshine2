@@ -4,12 +4,18 @@ import Menu from "../../Images/Menu.svg";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 import Close from "../../Images/close.png";
+import { Button, ArrowForward, ArrowRight } from "../ButtonElement";
 import "./header.css";
 function Header() {
   const [show, setShow] = useState(true);
-
+  const [hover, setHover] = useState(false);
+  const onHover = () => {
+    setHover(!hover);
+  };
   // copied this part from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
   var prevScrollpos = window.pageYOffset;
+  // if (document.getElementById("hamburger")) {
+  // i added if , bcuz when i chnaged to path='abouts' i had a "style : null" error
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
@@ -19,6 +25,8 @@ function Header() {
     }
     prevScrollpos = currentScrollPos;
   };
+  // }
+
   // ----------------------------------------------------------------------------------
   const clickHandler = () => {
     setShow(!show);
@@ -121,11 +129,25 @@ function Header() {
         components, and powerful JavaScript plugins...
       </p>
       <div id="btns">
+        <Button wideBTN="t" id="btn-h-1">
+          Watch Video
+        </Button>
         <LinkR to="abouts">
-          <button id="btn-h-2">Read More</button>
+          <Button
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            outline="t"
+            wideBTN="t"
+            id="btn-h-2"
+          >
+            Read More{" "}
+            {hover ? (
+              <ArrowForward id="icon-arrow-f" />
+            ) : (
+              <ArrowRight id="icon-arrow-r" />
+            )}
+          </Button>
         </LinkR>
-
-        <button id="btn-h-1">Watch Video</button>
       </div>
       <div style={{ clear: "both", float: "none" }}></div>
     </header>

@@ -35,7 +35,7 @@ export const Form = () => {
           id="slct"
           aria-label="Default select example"
         >
-          <option selected value="1">
+          <option defaultValue value="1">
             UI/UX
           </option>
           <option value="2">WU</option>
@@ -44,11 +44,11 @@ export const Form = () => {
       </div>
 
       <div className="col-12">
-        <label for="exampleFormControlTextarea1" class="form-label">
+        <label for="exampleFormControlTextarea1" className="form-label">
           Tell Us More
         </label>
         <textarea
-          class="form-control"
+          className="form-control"
           id="exampleFormControlTextarea1"
           rows="4"
         ></textarea>

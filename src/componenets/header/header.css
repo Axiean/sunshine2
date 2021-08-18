@@ -40,51 +40,27 @@ header #btns {
   right: 2.074vw;
 }
 header #btns #btn-h-1 {
-  color: #f5f4f4;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.685vw;
-  width: 14.667vw;
-  height: 5.056vw;
-  background: #64b6ac;
-  border: none;
-  box-sizing: border-box;
-  border-radius: 2.5rem;
-  transition: all ease-in-out 0.2s;
-  cursor: pointer;
+  margin-right: 1.704vw;
 }
 header #btns #btn-h-1:hover {
-  color: black;
-  background-color: #64b6f0;
 }
 
 header #btns #btn-h-2 {
-  color: #2d383d;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.685vw;
-  width: 14.667vw;
-  height: 5.056vw;
-  background: transparent;
-  border: 0.63vw solid #64b6ac;
-  box-sizing: border-box;
-  border-radius: 2.5rem;
-  margin-right: 1.704vw;
-  transition: all ease-in-out 0.2s;
-  cursor: pointer;
 }
-header #btns #btn-h-2:hover {
-  color: white;
-  background-color: #64b6ac;
-}
+
 #menu {
   display: none;
 }
 #menu:hover {
   cursor: pointer;
 }
+#icon-arrow-f {
+  /* padding-left: 6px; */
+  position: relative;
+  left: 3px;
+  /* width: 20px; */
+}
+
 @media screen and (max-width: 576px) {
   nav {
     display: none;
@@ -195,15 +171,10 @@ header #btns #btn-h-2:hover {
   }
   header #btns #btn-h-2 {
     margin-right: auto;
-    width: 70vw;
-    height: 10vw;
-    font-size: 3vw;
+    margin-top: 4vw;
   }
   header #btns #btn-h-1 {
-    width: 70vw;
-    height: 10vw;
-    font-size: 3vw;
-    margin-top: 4vw;
+    /* margin-top: 4vw; */
   }
   #menu {
     display: inline-block;
@@ -228,5 +199,9 @@ header #btns #btn-h-2:hover {
   #hamburger-logo h1 {
     font-size: 2vw;
     /* margin-left: 4vw; */
+  }
+  #icon-arrow-f,
+  #icon-arrow-r {
+    display: none;
   }
 }
