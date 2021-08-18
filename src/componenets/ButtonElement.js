@@ -25,7 +25,7 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 576px) {
-    width: ${({ wideBTN }) => (wideBTN ? "70vw" : "25vw")};
+    width: ${({ wideBTN }) => (wideBTN ? "40vw" : "25vw")};
     height: 10vw;
     font-size: 3vw;
   }

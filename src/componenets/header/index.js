@@ -5,6 +5,7 @@ import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 import Close from "../../Images/close.png";
 import { Button, ArrowForward, ArrowRight } from "../ButtonElement";
+import { reveal as MenuR } from "react-burger-menu";
 import "./header.css";
 function Header() {
   const [show, setShow] = useState(true);
@@ -12,46 +13,50 @@ function Header() {
   const onHover = () => {
     setHover(!hover);
   };
+
   // copied this part from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
   var prevScrollpos = window.pageYOffset;
   // if (document.getElementById("hamburger")) {
   // i added if , bcuz when i chnaged to path='abouts' i had a "style : null" error
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
+
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("hamburger").style.top = "0";
+      document.getElementById("mobile-nav").style.top = "0";
     } else if (show) {
-      document.getElementById("hamburger").style.top = "-70px";
+      document.getElementById("mobile-nav").style.top = "-70px";
+      // document.getElementById("hamburger").style.top = "-70px";
     }
     prevScrollpos = currentScrollPos;
   };
-  // }
 
   // ----------------------------------------------------------------------------------
   const clickHandler = () => {
     setShow(!show);
   };
+
   return (
     <header id="home">
-      <div
-        id="hamburger"
-        style={{
-          transform: show ? " translateY(-85%)" : " translateY(0)",
-        }}
-      >
-        <LinkS to="home">
-          <div id="hamburger-logo" style={{ opacity: show ? 1 : 0 }}>
-            <img src={Logo} alt="sunshine" />
-            <h1>SUNSHINE Agency</h1>
-          </div>
-        </LinkS>
-
+      <div id="mobile-nav" style={{ opacity: show ? 1 : 0 }}>
         <img
           onClick={clickHandler}
           src={Menu}
           id="menu"
           style={{ visibility: show ? null : "hidden" }}
         />
+        <LinkS to="home">
+          <div id="hamburger-logo" style={{ opacity: show ? 1 : 0 }}>
+            <img src={Logo} alt="sunshine" />
+            <h1>SUNSHINE Agency</h1>
+          </div>
+        </LinkS>
+      </div>
+      <div
+        id="hamburger"
+        style={{
+          transform: show ? " translatex(100%)" : " translateY(0)",
+        }}
+      >
         <img id="close-btn" src={Close} onClick={clickHandler} />
         <ul id="ul-mobile">
           <li className="li-mobile">
@@ -115,9 +120,16 @@ function Header() {
             </LinkS>
           </li>
         </ul>
+        <LinkS to="home">
+          <div id="hamburger-interior-logo">
+            <img src={Logo} alt="sunshine" />
+            <h1>SUNSHINE Agency</h1>
+          </div>
+        </LinkS>
       </div>
 
-      {/*  --------------------------- */}
+      {/* --------------------------- */}
+
       <div id="logo">
         <img src={Logo} alt="sunshine" />
         <h1>SUNSHINE Agency</h1>
@@ -129,7 +141,7 @@ function Header() {
         components, and powerful JavaScript plugins...
       </p>
       <div id="btns">
-        <Button wideBTN="t" id="btn-h-1">
+        <Button onClick={clickHandler} wideBTN="t" id="btn-h-1">
           Watch Video
         </Button>
         <LinkR to="abouts">
@@ -146,6 +158,7 @@ function Header() {
             ) : (
               <ArrowRight id="icon-arrow-r" />
             )}
+            <ArrowForward id="icon-arrow-f-mobile" />
           </Button>
         </LinkR>
       </div>

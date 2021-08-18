@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <>
-      <nav>
+      <nav id="main-nav">
         <ul id="ul-desktop">
           <li className="li-desktop">
             <Link
