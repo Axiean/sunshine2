@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../Images/logo.png";
 import Menu from "../../Images/Menu.svg";
 import { Link as LinkS } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
 import Close from "../../Images/close.png";
 import "./header.css";
 function Header() {
@@ -120,7 +121,10 @@ function Header() {
         components, and powerful JavaScript plugins...
       </p>
       <div id="btns">
-        <button id="btn-h-2">Read More</button>
+        <LinkR to="abouts">
+          <button id="btn-h-2">Read More</button>
+        </LinkR>
+
         <button id="btn-h-1">Watch Video</button>
       </div>
       <div style={{ clear: "both", float: "none" }}></div>
