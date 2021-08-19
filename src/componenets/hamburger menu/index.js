@@ -110,30 +110,7 @@ function HamMenu() {
                 Services
               </LinkS>
             </li>
-            <li className="li-mobile">
-              <LinkS
-                onClick={clickHandler}
-                className="LinkS"
-                spy={true}
-                duration={200}
-                smooth={true}
-                to="services"
-              >
-                Services
-              </LinkS>
-            </li>
-            <li className="li-mobile">
-              <LinkS
-                onClick={clickHandler}
-                className="LinkS"
-                spy={true}
-                duration={200}
-                smooth={true}
-                to="services"
-              >
-                Services
-              </LinkS>
-            </li>
+
             <li className="li-mobile">
               <LinkS
                 onClick={clickHandler}

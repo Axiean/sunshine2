@@ -32,7 +32,7 @@
     height: 100%;
     position: fixed;
     z-index: 97;
-    background-color: rgba(34, 34, 34, 0.514);
+    background-color: #e0e1e180;
     transition: all ease-in-out 0.4s;
   }
   #hamburger {
