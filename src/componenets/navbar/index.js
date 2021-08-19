@@ -1,9 +1,10 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
+import { Fade } from "react-reveal";
 function Navbar() {
   return (
-    <>
+    <Fade left delay={1000}>
       <nav id="main-nav">
         <ul id="ul-desktop">
           <li className="li-desktop">
@@ -63,7 +64,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-    </>
+    </Fade>
   );
 }
 
