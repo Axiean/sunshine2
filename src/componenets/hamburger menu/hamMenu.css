@@ -1,0 +1,139 @@
+#hamburger {
+  display: none;
+}
+#menu {
+  display: none;
+}
+#menu:hover {
+  cursor: pointer;
+}
+#mobile-nav {
+  display: none;
+}
+#black-screen {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  #main-nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #c1dfdb;
+    transition: all ease-in-out 0.3s;
+    z-index: 98;
+  }
+  #black-screen {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 97;
+    background-color: rgba(34, 34, 34, 0.514);
+    transition: all ease-in-out 0.4s;
+  }
+  #hamburger {
+    display: block;
+    background-color: #c1dfdb;
+    height: 100%;
+    padding-bottom: 100px;
+    width: 50%;
+    position: fixed;
+    right: 0;
+    transition: all ease-in-out 0.5s;
+    z-index: 98;
+    opacity: 0.95;
+    border-radius: 5px;
+  }
+
+  #exrta-part-menu {
+    width: 70px;
+    height: 60px;
+    background-color: #c1dfdb6e;
+    position: relative;
+    right: 60px;
+    top: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hamburger #close-btn {
+    opacity: 0.7;
+    width: 7%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 99;
+  }
+  #hamburger #close-btn:hover {
+    cursor: pointer;
+  }
+  #hamburger #ul-mobile {
+    text-align: center;
+    list-style: none;
+    padding-top: 60px;
+  }
+  #hamburger #ul-mobile .li-mobile {
+    margin-bottom: 6vw;
+    /* font-size: 10px; */
+  }
+  .LinkS {
+    font-size: 4vh;
+    font-weight: 300;
+    border: none;
+    font-style: normal;
+
+    color: #5d737e;
+    text-decoration: none;
+  }
+  .LinkS.active {
+    font-weight: 900;
+  }
+  .LinkS:hover {
+    cursor: pointer;
+    color: #2d383d;
+  }
+  #hamburger-interior-logo {
+    margin-top: 10vw;
+    text-align: center;
+  }
+  #hamburger-interior-logo img {
+    width: 70%;
+  }
+  #hamburger-interior-logo h1 {
+    font-size: 4vw;
+    margin-top: 4px;
+  }
+  #menu {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 9vw;
+    /* width: 7vw; */
+    transition: all ease-in-out 0.4s;
+    z-index: 99;
+  }
+  #hamburger-logo {
+    position: absolute;
+    bottom: 0;
+    left: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: all ease-in-out 0.5s; */
+    cursor: pointer;
+  }
+  #hamburger-logo img {
+    width: 10vw;
+  }
+  #hamburger-logo h1 {
+    font-size: 2vw;
+    /* margin-left: 4vw; */
+  }
+}
