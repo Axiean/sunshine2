@@ -40,7 +40,7 @@ function Header() {
           <Button wideBTN="t" id="btn-h-1">
             Watch Video
           </Button>
-          <LinkR to="abouts">
+          <LinkR to="services">
             <Button
               onMouseEnter={onHover}
               onMouseLeave={onHover}
