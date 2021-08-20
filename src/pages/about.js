@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
+import HamMenu from "../componenets/hamburger menu";
+import Services from "../componenets/services";
 
 function Abouts() {
   return (
@@ -8,8 +10,10 @@ function Abouts() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <HamMenu />
       <div>
         <h1>DalaaaaaaaaMMMMM</h1>
+        <Services />
       </div>
     </motion.div>
   );

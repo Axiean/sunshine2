@@ -7,7 +7,7 @@ import Abouts from "./pages/about";
 function App() {
   const location = useLocation();
   return (
-    <AnimatePresence exitBeforeEnter>
+    <AnimatePresence exitBeforeEnter initial={false}>
       <Switch location={location} key={location.pathname}>
         <Route exact path="/">
           <Home />
