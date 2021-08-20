@@ -3,6 +3,7 @@ import "./App.css";
 import { Switch, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import ServicesP from "./pages/Services";
+import WorksP from "./pages/Works";
 function App() {
   const location = useLocation();
   return (
@@ -13,6 +14,9 @@ function App() {
         </Route>
         <Route path="/services">
           <ServicesP />
+        </Route>
+        <Route path="/works">
+          <WorksP />
         </Route>
       </Switch>
     </AnimatePresence>

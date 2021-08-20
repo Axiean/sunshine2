@@ -1,6 +1,10 @@
 // import styled from "styled-components";
 import styled, { keyframes } from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import {
+  MdKeyboardArrowRight,
+  MdArrowForward,
+  MdKeyboardArrowLeft,
+} from "react-icons/md";
 
 export const Button = styled.button`
   color: ${({ outline }) => (outline ? " #2d383d" : "#f5f4f4")};
@@ -18,6 +22,9 @@ export const Button = styled.button`
   text-decoration: none;
   transition: all ease-in-out 0.2s;
   cursor: pointer;
+  margin-right: ${({ backBTN }) => (backBTN ? "4vw" : null)};
+  ${({ top }) => (top ? "margin-top: 2vw; margin-bottom: 2vw ;" : null)}
+  float: ${({ backBTN }) => (backBTN ? "right" : null)};
   &:hover {
     color: ${({ outline }) => (outline ? "white" : "black")};
     background-color: ${({ outline }) => (outline ? "#64b6ac" : " #64b6f0")};
@@ -50,3 +57,4 @@ export const ArrowForward = styled(MdArrowForward)`
 `;
 
 export const ArrowRight = styled(MdKeyboardArrowRight)``;
+export const ArrowLeft = styled(MdKeyboardArrowLeft)``;
