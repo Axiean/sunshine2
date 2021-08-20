@@ -1,11 +1,14 @@
 import Home from "./pages";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+
 import Abouts from "./pages/about";
 function App() {
+  const location = useLocation();
   return (
-    <Router>
-      <Switch>
+    <AnimatePresence exitBeforeEnter>
+      <Switch location={location} key={location.pathname}>
         <Route exact path="/">
           <Home />
         </Route>
@@ -13,7 +16,7 @@ function App() {
           <Abouts />
         </Route>
       </Switch>
-    </Router>
+    </AnimatePresence>
   );
 }
 

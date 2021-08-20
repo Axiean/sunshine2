@@ -8,12 +8,17 @@ import Header from "../componenets/header";
 import Navbar from "../componenets/navbar";
 import Services from "../componenets/services";
 import { Data } from "../componenets/services/Data";
+import { motion } from "framer-motion";
 
 import Works from "../componenets/works";
 
 function Home() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Bg />
       <HamMenu />
       <Navbar />
@@ -23,7 +28,7 @@ function Home() {
       <About />
       <Contact />
       <Footer />
-    </>
+    </motion.div>
   );
 }
 
