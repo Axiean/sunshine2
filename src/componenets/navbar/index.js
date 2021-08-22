@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { Fade } from "react-reveal";
 function Navbar() {
   return (
-    <Fade left delay={1000}>
+    <Fade left delay={300}>
       <nav id="main-nav">
         <ul id="ul-desktop">
           <li className="li-desktop">

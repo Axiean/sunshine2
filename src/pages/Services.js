@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HamMenu from "../componenets/hamburger menu";
-import { Bar } from "react-chartjs-2";
 import Navbar from "../componenets/navbar";
 import { ArrowLeft, Button } from "../componenets/ButtonElement";
 import { Link } from "react-router-dom";

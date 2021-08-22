@@ -38,7 +38,21 @@ export const Button = styled.button`
   }
 `;
 
-const ShakeAnimation = keyframes` 
+const ShakeAnimationRight = keyframes` 
+
+    0% { 
+      transform: translatex(0);
+    }
+    
+    50% { 
+      transform: translatex(10px);
+    }
+    100% { 
+      transform: translatex(0px);
+
+    }
+`;
+const ShakeAnimationLeft = keyframes` 
 
     0% { 
       transform: translatex(0);
@@ -53,8 +67,10 @@ const ShakeAnimation = keyframes`
     }
 `;
 export const ArrowForward = styled(MdArrowForward)`
-  animation: 0.8s ${ShakeAnimation} infinite ease-in;
+  animation: 0.8s ${ShakeAnimationRight} infinite ease-in;
 `;
 
 export const ArrowRight = styled(MdKeyboardArrowRight)``;
-export const ArrowLeft = styled(MdKeyboardArrowLeft)``;
+export const ArrowLeft = styled(MdKeyboardArrowLeft)`
+  /* animation: 0.8s ${ShakeAnimationRight} infinite ease-in; */
+`;
