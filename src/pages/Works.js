@@ -21,7 +21,7 @@ function WorksP(props) {
   };
   // this obj aloows me to prevent repeating to="{ pathnam...." on each Link tag
   const objLinkTo = {
-    pathname: `/works/${pagename}`,
+    pathname: `/sunshine2/works/${pagename}`,
     state: { info: [picSrc, "kii"] },
   };
   return (
@@ -32,7 +32,7 @@ function WorksP(props) {
     >
       <Navbar />
       <HamMenu />
-      <Link to="/">
+      <Link to="/sunshine2/">
         <Button top backBTN>
           <ArrowLeft />
           Back

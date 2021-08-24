@@ -14,7 +14,7 @@ function WorksBrands(props) {
       exit={{ opacity: 0 }}
     >
       <HamMenu />
-      <Link to="/works">
+      <Link to="/sunshine2/works">
         <Button top backBTN>
           <ArrowLeft />
           Back

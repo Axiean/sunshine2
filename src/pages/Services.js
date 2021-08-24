@@ -20,7 +20,7 @@ function ServicesP() {
     >
       <Navbar />
       <HamMenu />
-      <Link to="/">
+      <Link to="/sunshine2/">
         <Button top backBTN>
           <ArrowLeft />
           Back

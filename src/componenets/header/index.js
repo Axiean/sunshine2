@@ -37,13 +37,13 @@ function Header() {
       </Fade>
       <Flip bottom delay={1000}>
         <div id="btns">
-          <LinkR to="sunshine2/works">
+          <LinkR to="works">
             <Button wideBTN="t" id="btn-h-1">
               Watch Video
             </Button>
           </LinkR>
 
-          <LinkR to="sunshine2/services">
+          <LinkR to="services">
             <Button
               onMouseEnter={onHover}
               onMouseLeave={onHover}
