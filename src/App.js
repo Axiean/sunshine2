@@ -14,13 +14,13 @@ function App() {
         <Route exact path="/sunshine2">
           <Home />
         </Route>
-        <Route path="/services">
+        <Route path="/sunshine2/services">
           <ServicesP />
         </Route>
-        <Route exact path="/works" component={WorksP} />
+        <Route exact path="/sunshine2/works" component={WorksP} />
 
         <Route
-          path="/works/:pagename"
+          path="/sunshine2/works/:pagename"
           render={(props) => <WorksBrands {...props} />}
         />
       </Switch>
