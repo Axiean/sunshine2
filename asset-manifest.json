@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunshine2/static/css/main.e972f1bb.chunk.css",
+    "main.css": "/sunshine2/static/css/main.a22c32f6.chunk.css",
     "main.js": "/sunshine2/static/js/main.7f091fe0.chunk.js",
     "main.js.map": "/sunshine2/static/js/main.7f091fe0.chunk.js.map",
     "runtime-main.js": "/sunshine2/static/js/runtime-main.0e0a61ea.js",
@@ -8,7 +8,7 @@
     "static/js/2.39124e79.chunk.js": "/sunshine2/static/js/2.39124e79.chunk.js",
     "static/js/2.39124e79.chunk.js.map": "/sunshine2/static/js/2.39124e79.chunk.js.map",
     "index.html": "/sunshine2/index.html",
-    "static/css/main.e972f1bb.chunk.css.map": "/sunshine2/static/css/main.e972f1bb.chunk.css.map",
+    "static/css/main.a22c32f6.chunk.css.map": "/sunshine2/static/css/main.a22c32f6.chunk.css.map",
     "static/js/2.39124e79.chunk.js.LICENSE.txt": "/sunshine2/static/js/2.39124e79.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sunshine2/static/media/Calibri Regular.29c57b05.ttf",
     "static/media/Ellipse 2 (1).3e881bf0.png": "/sunshine2/static/media/Ellipse 2 (1).3e881bf0.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.0e0a61ea.js",
     "static/js/2.39124e79.chunk.js",
-    "static/css/main.e972f1bb.chunk.css",
+    "static/css/main.a22c32f6.chunk.css",
     "static/js/main.7f091fe0.chunk.js"
   ]
 }
