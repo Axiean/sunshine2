@@ -6,6 +6,8 @@ import ServicesP from "./pages/Services";
 import WorksP from "./pages/Works";
 import WorksBrands from "./pages/worksBrands";
 import brandsData from "./Data/brandsData";
+import AboutP from "./pages/About";
+
 function App() {
   const location = useLocation();
   return (
@@ -23,6 +25,7 @@ function App() {
           path="/sunshine2/works/:pagename"
           render={(props) => <WorksBrands {...props} />}
         />
+        <Route path="/sunshine2/about" component={AboutP} />
       </Switch>
     </AnimatePresence>
   );
