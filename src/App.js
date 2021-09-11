@@ -8,6 +8,7 @@ import WorksBrands from "./pages/worksBrands";
 import brandsData from "./Data/brandsData";
 import AboutP from "./pages/About";
 import ScrollToTop from "./ScrollToTop";
+import NoMatch from "./pages/NoMatch";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
           render={(props) => <WorksBrands {...props} />}
         />
         <Route path="/sunshine2/about" component={AboutP} />
+        <Route path="*" component={NoMatch} />
       </Switch>
     </AnimatePresence>
   );
