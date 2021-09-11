@@ -12,14 +12,13 @@ import {
   ProBio,
   Quote,
 } from "../styledComponents/aboutPageElements";
-import Pro1 from "../../Images/ProfilePic/pro1.png";
 
-function ProBoxPage({ name, role, role2, bioTitle, bio, quote }) {
+function ProBoxPage({ name, role, role2, bioTitle, bio, quote, pic }) {
   return (
     <>
       <ProBox>
         <TitleBox>
-          <ProPic src={Pro1} />
+          <ProPic src={pic} />
           <ProInfo>
             <Name>{name}</Name>
             <Role>{role}</Role>

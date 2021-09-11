@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Pro1 from "../../Images/ProfilePic/inline_image_preview.png";
 import "./about.css";
 function About() {
@@ -30,7 +31,9 @@ function About() {
           </div>
         </div>
       </div>
-      <button id="btn-about">See More</button>
+      <Link to="/sunshine2/about">
+        <button id="btn-about">See More</button>
+      </Link>
       <div style={{ clear: "both", float: "none" }}></div>
     </section>
   );

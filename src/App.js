@@ -7,6 +7,7 @@ import WorksP from "./pages/Works";
 import WorksBrands from "./pages/worksBrands";
 import brandsData from "./Data/brandsData";
 import AboutP from "./pages/About";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   const location = useLocation();
