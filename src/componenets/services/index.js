@@ -5,6 +5,7 @@ import Marketing from "../../Images/Services/Ellipse 3 (6).png";
 import ProductDesign from "../../Images/Services/Ellipse 6 (1).png";
 import VideoSolution from "../../Images/Services/Ellipse 7 (2).png";
 import Wordpress from "../../Images/Services/Ellipse 7 (3).png";
+import { Link as LinkR } from "react-router-dom";
 import { Data } from "./Data";
 
 import "./services.css";
@@ -40,7 +41,9 @@ function Services() {
           des="Lorem ipsum dolor sit amet "
         />
       </div>
-      <button id="btn-srv">See More </button>
+      <LinkR to="/sunshine2/services">
+        <button id="btn-srv">See More </button>
+      </LinkR>
       <div style={{ clear: "both", float: "none" }}></div>
     </section>
   );
