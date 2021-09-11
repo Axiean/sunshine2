@@ -12,6 +12,7 @@ export const BrandsBox = styled.div`
   justify-content: space-between;
   align-content: space-between;
   margin: auto;
+  margin-bottom: 10vw;
 `;
 export const BrandPic = styled.img`
   border-radius: 20px;
