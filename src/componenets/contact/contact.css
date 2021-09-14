@@ -1,11 +1,12 @@
 #contact {
-  width: 100%;
+  width: 1300px;
+  margin: auto;
   height: fit-content;
   padding-top: 14.815vw;
   position: relative;
 }
 #contact #title-contact {
-  margin-left: 10.444vw;
+  margin-left: 14%;
   display: inline-block;
 }
 #contact #title-contact h2 {
@@ -33,7 +34,7 @@
 }
 #contact #attention {
   position: relative;
-  margin-left: 10.444vw;
+  margin-left: 160px;
 }
 #contact #attention #wide-p {
   font-style: normal;
@@ -51,13 +52,13 @@
   left: 45%;
 }
 #form {
-  width: 38vw;
+  width: 38%;
   float: right;
   background: #f5f4f4;
   box-shadow: 7.58333px 11.375px 31.2812px rgba(93, 115, 126, 0.34);
   border-radius: 4.73958px;
   padding: 22px 40px;
-  margin-right: 2.074vw;
+  margin-right: 3.074vw;
 }
 #p1 {
   display: inline-block;
