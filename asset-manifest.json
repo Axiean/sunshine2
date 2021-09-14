@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sunshine2/static/css/main.a22c32f6.chunk.css",
-    "main.js": "/sunshine2/static/js/main.7f091fe0.chunk.js",
-    "main.js.map": "/sunshine2/static/js/main.7f091fe0.chunk.js.map",
+    "main.css": "/sunshine2/static/css/main.aa65d605.chunk.css",
+    "main.js": "/sunshine2/static/js/main.c9ac49a8.chunk.js",
+    "main.js.map": "/sunshine2/static/js/main.c9ac49a8.chunk.js.map",
     "runtime-main.js": "/sunshine2/static/js/runtime-main.0e0a61ea.js",
     "runtime-main.js.map": "/sunshine2/static/js/runtime-main.0e0a61ea.js.map",
-    "static/js/2.39124e79.chunk.js": "/sunshine2/static/js/2.39124e79.chunk.js",
-    "static/js/2.39124e79.chunk.js.map": "/sunshine2/static/js/2.39124e79.chunk.js.map",
+    "static/js/2.556ec940.chunk.js": "/sunshine2/static/js/2.556ec940.chunk.js",
+    "static/js/2.556ec940.chunk.js.map": "/sunshine2/static/js/2.556ec940.chunk.js.map",
     "index.html": "/sunshine2/index.html",
-    "static/css/main.a22c32f6.chunk.css.map": "/sunshine2/static/css/main.a22c32f6.chunk.css.map",
-    "static/js/2.39124e79.chunk.js.LICENSE.txt": "/sunshine2/static/js/2.39124e79.chunk.js.LICENSE.txt",
+    "static/css/main.aa65d605.chunk.css.map": "/sunshine2/static/css/main.aa65d605.chunk.css.map",
+    "static/js/2.556ec940.chunk.js.LICENSE.txt": "/sunshine2/static/js/2.556ec940.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sunshine2/static/media/Calibri Regular.29c57b05.ttf",
     "static/media/Ellipse 2 (1).3e881bf0.png": "/sunshine2/static/media/Ellipse 2 (1).3e881bf0.png",
     "static/media/Ellipse 3 (5).42f5e30e.png": "/sunshine2/static/media/Ellipse 3 (5).42f5e30e.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0e0a61ea.js",
-    "static/js/2.39124e79.chunk.js",
-    "static/css/main.a22c32f6.chunk.css",
-    "static/js/main.7f091fe0.chunk.js"
+    "static/js/2.556ec940.chunk.js",
+    "static/css/main.aa65d605.chunk.css",
+    "static/js/main.c9ac49a8.chunk.js"
   ]
 }
