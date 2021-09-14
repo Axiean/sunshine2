@@ -8,6 +8,7 @@ import Wordpress from "../../Images/Services/Ellipse 7 (3).png";
 import { Link as LinkR } from "react-router-dom";
 import { Data } from "./Data";
 
+import { Button } from "../ButtonElement";
 import "./services.css";
 
 function Services() {
@@ -42,7 +43,9 @@ function Services() {
         />
       </div>
       <LinkR to="/sunshine2/services">
-        <button id="btn-srv">See More </button>
+        <Button outline id="btn-srv">
+          See More{" "}
+        </Button>
       </LinkR>
       <div style={{ clear: "both", float: "none" }}></div>
     </section>

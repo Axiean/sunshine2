@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../ButtonElement";
 import "./bootstrap.min.css";
 import "./FormStyle.css";
 export const Form = () => {
@@ -54,9 +55,9 @@ export const Form = () => {
         ></textarea>
       </div>
 
-      <button className="btnSubmit" type="submit">
+      <Button className="btnSubmit" type="submit">
         Send
-      </button>
+      </Button>
     </form>
   );
 };

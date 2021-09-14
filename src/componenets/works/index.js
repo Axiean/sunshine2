@@ -9,6 +9,7 @@ import CountUp from "react-countup";
 import TrackVisibility from "react-on-screen";
 import "./works.css";
 import { Link } from "react-router-dom";
+import { Button } from "../ButtonElement";
 function Works() {
   return (
     <section id="works">
@@ -74,7 +75,9 @@ function Works() {
         )}
       </TrackVisibility>
       <Link to="/sunshine2/works">
-        <button id="btn-work">See More</button>
+        <Button outline id="btn-work">
+          See More
+        </Button>
       </Link>
       <div style={{ clear: "both", float: "none" }}></div>
     </section>

@@ -16,25 +16,10 @@ textarea {
   background-color: #e3fbf0 !important ;
 }
 .btnSubmit {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22.75px;
-  background-color: #64b6ac;
-  border-radius: 41.7px;
-  padding: 20.8px 35px;
-  border: none;
-  color: white;
-  transition: all ease-in-out 0.3s;
-  cursor: pointer;
-  width: 200px;
   margin: auto;
   margin-top: 60px;
 }
-.btnSubmit:hover {
-  color: black;
-  background-color: #64b6f0;
-}
+
 @media screen and (max-width: 576px) {
   label {
     font-size: 5vw;

@@ -58,26 +58,11 @@
   margin-top: 40px;
 }
 #btn-about {
-  color: #2d383d;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  background: transparent;
-  font-size: 1.685vw;
-  width: 14.667vw;
-  height: 5.056vw;
-  border: 0.63vw solid #64b6ac;
   margin-right: 1.704vw;
-  box-sizing: border-box;
-  border-radius: 2.5rem;
   margin-top: 90px;
   float: right;
-  transition: all ease-in-out 0.2s;
 }
 #btn-about:hover {
-  cursor: pointer;
-  background-color: #64b6ac;
-  color: aliceblue;
 }
 @media screen and (max-width: 576px) {
   #about #pro-box #pro-card img {
@@ -95,9 +80,6 @@
     margin-top: 0;
   }
   #btn-about {
-    width: 25vw;
-    height: 10vw;
-    font-size: 3vw;
     margin-top: 20px;
     margin-right: 4.704vw;
   }

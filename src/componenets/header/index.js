@@ -38,7 +38,7 @@ function Header() {
       <Flip bottom delay={1000}>
         <div id="btns">
           <LinkR to="works">
-            <Button wideBTN="t" id="btn-h-1">
+            <Button wideBTN id="btn-h-1">
               Watch Video
             </Button>
           </LinkR>
@@ -47,8 +47,8 @@ function Header() {
             <Button
               onMouseEnter={onHover}
               onMouseLeave={onHover}
-              outline="t"
-              wideBTN="t"
+              outline
+              wideBTN
               id="btn-h-2"
             >
               Read More{" "}

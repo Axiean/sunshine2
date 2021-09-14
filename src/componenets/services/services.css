@@ -46,26 +46,11 @@
   margin-top: 1vw;
 }
 #btn-srv {
-  color: #2d383d;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.685vw;
-  width: 14.667vw;
-  height: 5.056vw;
-  border: 0.63vw solid #64b6ac;
   margin-right: 1.704vw;
-  background: transparent;
-  box-sizing: border-box;
-  border-radius: 2.5rem;
   margin-top: 90px;
   float: right;
-  transition: all ease-in-out 0.2s;
 }
 #btn-srv:hover {
-  cursor: pointer;
-  background-color: #64b6ac;
-  color: aliceblue;
 }
 @media screen and (max-width: 576px) {
   #services #srv-container {
@@ -96,9 +81,6 @@
     margin-top: 1vw;
   }
   #btn-srv {
-    width: 25vw;
-    height: 10vw;
-    font-size: 3vw;
     margin-top: 20px;
     margin-right: 4.704vw;
   }
