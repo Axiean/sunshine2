@@ -1,9 +1,14 @@
 #contact {
-  width: 1300px;
+  width: 100%;
   margin: auto;
   height: fit-content;
   padding-top: 14.815vw;
   position: relative;
+}
+@media screen and (min-width: 1400px) {
+  #contact {
+    width: 1400px;
+  }
 }
 #contact #title-contact {
   margin-left: 14%;
@@ -64,6 +69,9 @@
   display: inline-block;
 }
 @media screen and (max-width: 576px) {
+  #contact {
+    width: 100%;
+  }
   #contact #attention img {
     display: none;
   }
