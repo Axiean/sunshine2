@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Brandpic from "../../Images/Group 164.png";
+import Brandpic from "../../Images/footer/insta.png";
 import Bg1 from "../../Images/Polygon.png";
 
 function Footer() {
@@ -14,18 +14,18 @@ function Footer() {
         </div>
         <div className="footer-row">
           <img src={Brandpic} alt="" />
-          <h3>Asen.Store</h3>
+          <h3>info@sunshine.com</h3>
         </div>
       </div>
       <div className="footer-col">
         <h2>Social Media</h2>
         <div className="footer-row">
           <img src={Brandpic} alt="" />
-          <h3>Asen.Store</h3>
+          <h3>Asen.Tshirts</h3>
         </div>
         <div className="footer-row">
           <img src={Brandpic} alt="" />
-          <h3>Asen.Store</h3>
+          <h3>Sunshine.Forever</h3>
         </div>
       </div>
       <div className="footer-col">
