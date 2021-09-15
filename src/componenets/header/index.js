@@ -37,11 +37,16 @@ function Header() {
       </Fade>
       <Flip bottom delay={1000}>
         <div id="btns">
-          <LinkR to="works">
+          {/* check : https://stackoverflow.com/questions/15551779/open-link-in-new-tab-or-window */}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/"
+          >
             <Button wideBTN id="btn-h-1">
               Watch Video
             </Button>
-          </LinkR>
+          </a>
 
           <LinkR to="services">
             <Button
