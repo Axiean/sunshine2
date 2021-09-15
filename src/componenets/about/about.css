@@ -1,7 +1,12 @@
 #about {
   width: 100%;
   height: fit-content;
-  padding-top: 14.815vw;
+  padding-top: 8vw;
+}
+#about #about-title {
+  font-size: 4vw;
+  color: #5d737e;
+  margin-left: 8vw;
 }
 #about #pro-box {
   /* background-color: rgb(202, 216, 216); */
@@ -9,6 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 8vw;
 }
 #about #pro-box #pro-card {
   display: flex;
@@ -64,6 +70,7 @@
 }
 #btn-about:hover {
 }
+
 @media screen and (max-width: 576px) {
   #about #pro-box #pro-card img {
     width: 20vw;

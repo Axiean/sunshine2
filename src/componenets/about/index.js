@@ -6,6 +6,7 @@ import "./about.css";
 function About() {
   return (
     <section id="about">
+      <h2 id="about-title">Our Community</h2>
       <div id="pro-box">
         <div id="pro-card">
           <img src={Pro1} alt="Howard" />

@@ -27,7 +27,7 @@ function Header() {
           <h1>SUNSHINE Agency</h1>
         </Fade>
       </div>
-      <Fade cascade right duration={900} delay={500}>
+      <Fade right duration={900} delay={500}>
         <p id="header-about">
           Quickly design and customize responsive mobile-first sites with
           Mehrban, the world’s most popular front-end open source toolkit,
