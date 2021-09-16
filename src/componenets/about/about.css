@@ -27,6 +27,7 @@
 #about #pro-box #pro-card img {
   border-radius: 10px;
   filter: drop-shadow(18.0104px 12.3229px 31.2812px rgba(93, 115, 126, 0.34));
+  width: 18vw;
 }
 #about #pro-box #pro-card #pro-text-info {
   display: flex;
